@@ -1,0 +1,79 @@
+# Компилированные байт-коды Java
+*.class
+
+# Логи
+*.log
+
+# Файлы временных данных
+*.tmp
+*.temp
+*.swp
+*~
+
+# Папки сборки Maven и Gradle
+/target/
+/build/
+
+# Настройки IDE
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+/out/
+/*.iws
+
+# Eclipse
+/.classpath
+/.project
+/.settings/
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/.nb-gradle/
+
+# Файлы конфигурации и кэш
+*.bak
+*.orig
+*.rej
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+# Файлы, создаваемые Spring Boot при запуске
+spring.log
+
+# Файлы и папки, связанные с тестами
+/test-output/
+/surefire-reports/
+
+# Логи и временные файлы приложений
+hs_err_pid*
+
+# Локальные конфигурации и секреты
+.env
+*.env
+
+# Docker
+docker-compose.override.yml
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle Wrapper
+/gradle/wrapper/gradle-wrapper.jar
+
+# Сборочные скрипты и артефакты
+*.jar
+*.war
+*.ear
+
+# Node.js (если используется frontend)
+node_modules/
+
+# Ignore coverage reports
+/coverage/
